@@ -1,0 +1,57 @@
+body {
+	background-color: #F1F1F1;
+	color:#fff;
+}
+h1 {
+    font-size: 22px;
+    padding: 25px;
+    text-align: center;
+	font-weight: bold;
+}
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #98C0CC;
+    min-height: 500px;
+    box-shadow: 0px 0px 14px #CBC8D4;
+}
+#container .form {
+    width: 100%;	
+}
+#container .form .field {
+    height: 40px;
+}
+#container label {
+    font-size: 18px;	
+}
+#container label:before {
+    clear: both;
+}
+#container .left {
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+#container .right {
+	width: 70%;
+    float: right;
+	text-align: left;
+}
+#container .right > span.option-title {
+    font-size: 19px;
+}
+#container #table_res {
+    width: 100%;
+	font-size: 18px;
+}
+#container #table_res tr{
+    background-color: #4BAF6A;
+}
+#container #table_res tr td{
+	padding: 10px;
+}
+.red {
+    color: #CE2323;
+    font-weight: bold;
+}
+    
